@@ -1,8 +1,15 @@
 import React from 'react';
 
+import Header from '../Components/Headers';
+import Footer from '../Components/Footer';
+
 function Contato(){
     return(
-        <h1>Página Contato</h1>
+        <div>
+            <Header/>
+                <h1>Página Contato</h1>
+            <Footer/>
+        </div>
     );
 };
 
